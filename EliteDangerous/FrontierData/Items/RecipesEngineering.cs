@@ -227,16 +227,10 @@ namespace EliteDangerousCore
             new EngineeringRecipe("Far-reaching","abrasionblaster_farreaching","1MCF,1CPo,1Se,1HV",ItemData.ShipModule.ModuleTypes.AbrasionBlaster,4,"Juri Ishmaak",10),
             new EngineeringRecipe("Far-reaching","abrasionblaster_farreaching","1CIF,1ThA,1BiC,1PHR",ItemData.ShipModule.ModuleTypes.AbrasionBlaster,5,"Juri Ishmaak",20),
 
-            new EngineeringRecipe("Long range, Focused","weapon_longrange","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
-            new EngineeringRecipe("Overcharged, Focused","weapon_overcharged","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
-            new EngineeringRecipe("Rapid fire, High capacity","weapon_rapidfire","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
-            new EngineeringRecipe("Long range, Focused","weapon_longrange","",ItemData.ShipModule.ModuleTypes.MiningLaser,1,""),
-            new EngineeringRecipe("High capacity, Increased damage","weapon_highcapacity","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
             new EngineeringRecipe("Decorative Green", "decorative_green", "" , ItemData.ShipModule.ModuleTypes.AXMissileRack, 1, ""),
             new EngineeringRecipe("Decorative Yellow", "decorative_yellow", "" , ItemData.ShipModule.ModuleTypes.AXMissileRack, 1, ""),
             new EngineeringRecipe("Decorative Red", "decorative_red", "" , ItemData.ShipModule.ModuleTypes.AXMissileRack, 1, ""),
             new EngineeringRecipe("Decorative Pink", "decorative_pink", "" , ItemData.ShipModule.ModuleTypes.AXMissileRack, 1, ""),
-            new EngineeringRecipe("Long range","weapon_longrange","",ItemData.ShipModule.ModuleTypes.AbrasionBlaster,1,""),
             new EngineeringRecipe("Anti-Guardian Zone Resistance","guardianmodule_sturdy","2HSF,1CACR",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,"Ram Tah"),
 
             new EngineeringRecipe("Shielded", "misc_shielded", "1WSE", ItemData.ShipModule.ModuleTypes.AutoFieldMaintenanceUnit, 1, "Bill Turner,Lori Jameson,Petra Olmanova" ),
@@ -1258,6 +1252,14 @@ namespace EliteDangerousCore
             new EngineeringRecipe("Increase Capcacity", "cargorack_increasedcapacity", "", ItemData.ShipModule.ModuleTypes.CargoRack,5, "Tiana Fortune,Ram Tah,Bill Turner"),
 
             new EngineeringRecipe("Expanded Probe Scanning Radius", "sensor_fastscan", "", ItemData.ShipModule.ModuleTypes.SurfaceScanner, 5, "" ),
+
+            // combined modifications reusing standard weapon fdnames. Kept after the standard recipes, as FDName lookups take the first entry
+            new EngineeringRecipe("Long range, Focused","weapon_longrange","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
+            new EngineeringRecipe("Overcharged, Focused","weapon_overcharged","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
+            new EngineeringRecipe("Rapid fire, High capacity","weapon_rapidfire","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
+            new EngineeringRecipe("Long range, Focused","weapon_longrange","",ItemData.ShipModule.ModuleTypes.MiningLaser,1,""),
+            new EngineeringRecipe("High capacity, Increased damage","weapon_highcapacity","",ItemData.ShipModule.ModuleTypes.AXMissileRack,1,""),
+            new EngineeringRecipe("Long range","weapon_longrange","",ItemData.ShipModule.ModuleTypes.AbrasionBlaster,1,""),
 
             // obsolete
             new EngineeringRecipe("Guardian Upgrade Obsolete", "guardianweapon_sturdy", "1C", ItemData.ShipModule.ModuleTypes.UnknownType, 5, "Tiana Fortune" ),  // wrong data, don't worry
